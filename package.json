@@ -1,0 +1,13 @@
+{
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "rm -rf dist/* && parcel public/*.html --open --port 8080",
+    "build": "rm -rf dist/* && parcel build public/*.html",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "prettier": "^3.0.0"
+  }
+}

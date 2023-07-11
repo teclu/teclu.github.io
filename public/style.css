@@ -1,0 +1,64 @@
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #000000;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+  margin: 0;
+}
+
+canvas#background {
+  height: 100%;
+  position: absolute;
+  user-select: none;
+  width: 100%;
+  z-index: -1;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.75em;
+  line-height: 4.75;
+}
+
+header > h1 {
+  color: rgba(255, 255, 255, 0.925);
+  font-family: 'Staatliches', cursive;
+  font-size: 8em;
+  line-height: 1.25;
+  margin: 0;
+  text-shadow: 0 0 2em rgb(0, 0, 255, 0.975);
+}
+
+nav > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin: 0 32px;
+}
+
+nav > ul > li > a > img {
+  height: 3em;
+}
